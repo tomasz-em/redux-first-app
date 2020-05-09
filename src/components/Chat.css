@@ -1,0 +1,33 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    /* display: inline-block; */
+    flex-basis: 200px;
+    text-align: center;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s 0.05s, font-weight 0.2s 0.1s;
+    
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+ul li:hover {
+    /* display: inline-block; */
+    background-color: #5aabec;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.active {
+    background-color: steelblue;
+    color: white;
+
+}

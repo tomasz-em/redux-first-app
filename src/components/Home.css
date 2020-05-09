@@ -1,0 +1,78 @@
+.my-login-form {
+  margin: 60px auto;
+  padding: 2em;
+  max-width: 400px;
+  border: 2px solid #333;
+  background-color: #eee; /* #c4d0f3; */
+  transition: background-color 0.4s, height 0.5s;
+}
+
+.my-login-form h2 {
+text-align: center;
+color:#222;
+margin-bottom: 0.75em;
+}
+
+.my-login-form h3 {
+margin: 0;  
+}
+
+.my-login-form p {
+margin: 0;
+}
+
+.my-login-form code {
+    font-weight: bold;
+}
+
+.my-login-form code,
+.my-login-form label 
+{
+display: inline-block;
+font-size: 1em;
+}
+
+.my-login-form input,
+.my-login-form button
+{
+font-size: 1.25em;
+display: block;
+width: 100%;
+padding: 0.25em;;
+}
+
+.my-login-form label,
+.my-login-form button,
+.my-login-form input[type="submit"]
+{
+margin-top: 0.5em;
+padding: 0.25em;
+}
+
+.my-login-form button,
+.my-login-form input[type="submit"]
+{
+margin-top: 1.5em;
+padding: 0.75em;
+
+}
+
+.my-login-form label > span {
+color: red;
+}
+
+.my-login-form .error-text {
+color: red;
+font-weight: bold;
+margin: 0;
+}
+
+.my-login-form .info {
+font-size: 1em;
+text-align: justify;
+padding: 0.5em;
+margin-left: -0.5em;
+margin-right: -0.5em;
+border: solid 1px #666;
+}
+  

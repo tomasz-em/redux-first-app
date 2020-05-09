@@ -1,5 +1,6 @@
 {
   "name": "redux-first-app",
+  "description": "First App with use of Redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
