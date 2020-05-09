@@ -1,11 +1,12 @@
 import React from 'react';
-import './Chat.css'
+import './Chat.css';
 
-const Chat = () => {
+const Chat = ( props ) => {
     return (
         <div>
             <h1>Chat</h1>
-            <p>Chat test</p>
+            <p>Zalogowałeś się jako <strong>{ props.nick ? props.nick : "!NIEZALOGOWANY!"}</strong></p>
+            <a href="/">powrót</a>
         </div>
     );
 }

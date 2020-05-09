@@ -86,7 +86,7 @@ class Home extends React.Component {
     
             { this.state.isSubmited && (  //  warunkowe wyświetlanie fragmentu danego komponentu WEWNĄTRZ danego komponentu - wariant TRUE -- "zalogowany"
               <div>
-                    <Redirect push to="/chat" />
+                    <Redirect push to="/chat" nick={this.state.nick} /> {/* PRZEKIEROWANIE DO "/chat", gdy jest wypenione i przesłane pole "nick" w formularzu... jak przesłąć NICK?!  */}
               </div>  
                 ) }
             </form>

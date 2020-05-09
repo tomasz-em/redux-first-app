@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Redirect } from 'react-router'; // potrzebne bo jest w niższym komponencie (+ pośrednie wywołąmnieo tutaj)?
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // użycie krótszej nazwy, by nie pisać nadmiarowo
 
 import './App.css';
