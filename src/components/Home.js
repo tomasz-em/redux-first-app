@@ -73,7 +73,7 @@ class Home extends React.Component {
           <div className="my-login-form">
               <form onSubmit={this.handleLogin}>
               <>
-                <h2>Twój pseudonim</h2>
+                <h2>Twój pseudonim do czatu</h2>
                 <label htmlFor="nick">Nick <span>*</span></label>
                     {/* UWAGA na atrybut "for"! zamiast tego słowa kluczowego tu MUSI BYĆ UŻYTE "htmlFor"  */}
                 <input type="text" id="nick" name="nick" onChange={this.handleNickChange} value={this.state.nick} />
